@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectJsonPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+        "packagesPath": "C:\\Users\\FHBBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+        "projectStyle": "ProjectJson",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FHBBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj": {
+                "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj"
+              },
+              "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+                "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj"
+              },
+              "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj": {
+                "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj"
+              },
+              "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\UnityEngine.Purchasing.csproj": {
+                "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\UnityEngine.Purchasing.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
+        "projectName": "Unity.Analytics.DataPrivacy",
+        "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
+        "projectJsonPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\project.json",
+        "packagesPath": "C:\\Users\\FHBBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\obj\\",
+        "projectStyle": "ProjectJson",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FHBBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+        "projectJsonPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\project.json",
+        "packagesPath": "C:\\Users\\FHBBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\obj\\",
+        "projectStyle": "ProjectJson",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FHBBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj",
+        "projectName": "Unity.XR.WindowsMR",
+        "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\Unity.XR.WindowsMR.csproj",
+        "projectJsonPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\project.json",
+        "packagesPath": "C:\\Users\\FHBBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\Unity.XR.WindowsMR\\obj\\",
+        "projectStyle": "ProjectJson",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FHBBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\UnityEngine.Purchasing.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\UnityEngine.Purchasing.csproj",
+        "projectName": "UnityEngine.Purchasing",
+        "projectPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\UnityEngine.Purchasing.csproj",
+        "projectJsonPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\project.json",
+        "packagesPath": "C:\\Users\\FHBBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FHBBook\\Documents\\Unity_Projects\\HolographicAcademy-Holograms-101\\HolographicAcademy-Holograms-101\\Origami\\App\\GeneratedProjects\\UWP\\UnityEngine.Purchasing\\obj\\",
+        "projectStyle": "ProjectJson",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FHBBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

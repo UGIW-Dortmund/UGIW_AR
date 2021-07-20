@@ -1,0 +1,10 @@
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\UnityEngine.Purchasing\UnityEngine.Purchasing.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\UnityEngine.Purchasing\UnityEngine.Purchasing.csproj;x86
+C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\Origami\Origami.csproj;x86
