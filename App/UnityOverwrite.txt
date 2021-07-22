@@ -5,7 +5,7 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-Origami.sln: 4E5600AEB27E78AC9F10201BF3CFC43E
+Origami.sln: 4E46907A1131EA8F4541CDDB053C5E36
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 88AA7FF964823F6407718C34CA0DFE19
 GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\project.json: 88AA7FF964823F6407718C34CA0DFE19
 GeneratedProjects\UWP\Unity.TextMeshPro\project.json: 88AA7FF964823F6407718C34CA0DFE19
@@ -13,7 +13,7 @@ GeneratedProjects\UWP\Unity.XR.WindowsMR\project.json: 88AA7FF964823F6407718C34C
 GeneratedProjects\UWP\UnityEngine.Purchasing\project.json: 88AA7FF964823F6407718C34CA0DFE19
 Origami\App.cs: A3D9218E16EB791950AB69DDA1E12E46
 Origami\AssemblyConverterArgs.txt: BB839C69242AE54A6583B7BAE0DC583C
-Origami\Origami.csproj: BD961810712C8B2A7888D0F71BCFA6EB
+Origami\Origami.csproj: C3586F1A333D5CC8156B60EE9989F4FE
 Origami\Origami.csproj.user: modified
 Origami\Package.appxmanifest: 85C8B3231F907B211A4FDF02D3A57415
 Origami\project.json: CC10A2BA10723B75F669B6E9E5EE19C9

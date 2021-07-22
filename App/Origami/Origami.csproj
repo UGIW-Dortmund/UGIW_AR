@@ -357,27 +357,27 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
-      <Project>{049f2bc8-000b-45d2-9586-19cee6bee3ed}</Project>
+      <Project>{bbb90fce-b02b-4a7b-954b-316ee75491c5}</Project>
       <Name>Unity.TextMeshPro</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\UnityEngine.Purchasing\UnityEngine.Purchasing.csproj">
-      <Project>{fe7511d4-1f2b-4131-ad75-f5363a92504d}</Project>
+      <Project>{cf199eba-9ca3-4245-8229-69d7c6e723cb}</Project>
       <Name>UnityEngine.Purchasing</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj">
-      <Project>{63a81160-70df-4331-9a97-87263c60af61}</Project>
+      <Project>{1f6bba50-30aa-424d-a79c-6a56c0e1dc02}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{2afb3623-4af8-4e55-9a8a-0f0d8ea2e104}</Project>
+      <Project>{873c0c4e-9cc9-4671-b57b-37df078a6cbb}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj">
-      <Project>{9535796f-fd9b-4ae4-b4fc-448a48189f52}</Project>
+      <Project>{dcb26609-a201-4cf0-9028-15cdd0d18791}</Project>
       <Name>Unity.XR.WindowsMR</Name>
       <Private>False</Private>
     </ProjectReference>

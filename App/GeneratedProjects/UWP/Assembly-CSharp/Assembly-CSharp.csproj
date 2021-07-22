@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13fe40d1-b496-4f1b-a532-29965a94185b}</ProjectGuid>
+    <ProjectGuid>{f12ffd4b-e8bd-4a34-bb18-84c81a29175b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,16 +131,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\UnityEngine.Purchasing\UnityEngine.Purchasing.csproj">
-      <Project>{f4c1c20a-67ab-4cb2-8c81-0df0869bdbd6}</Project>
+      <Project>{a4828532-1107-4d04-86f5-fd19be6d33ee}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
-      <Project>{01dd7139-3b42-4a47-96db-84a624d2dc57}</Project>
+      <Project>{0d00f083-78ec-45ce-9b1b-605921e801c2}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj">
-      <Project>{3fb28157-f49a-4a25-872b-109883512671}</Project>
+      <Project>{82fe04e2-f559-4218-afff-6b1cce9f76d8}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj">
-      <Project>{6c6271e7-6fd2-4d1d-bba4-2eef84740c31}</Project>
+      <Project>{d5cb0281-96b6-47d9-8cd1-a5de64fbb7df}</Project>
       <Name>Unity.XR.WindowsMR</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.SpriteShapeModule">
