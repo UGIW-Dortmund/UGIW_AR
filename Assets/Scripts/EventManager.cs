@@ -17,7 +17,7 @@ public class EventManager : MonoBehaviour
     }
 
 
-    void resetScene()
+    public void resetScene()
     {
         this.BroadcastMessage("OnReset");
     }
