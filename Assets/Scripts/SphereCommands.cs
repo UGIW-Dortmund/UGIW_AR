@@ -3,12 +3,15 @@
 public class SphereCommands : MonoBehaviour
 {
     Vector3 originalPosition;
+    OrigamiFileLogHandler origamiFileLogHandler;
 
     // Use this for initialization
     void Start()
     {
         // Grab the original local position of the sphere when the app starts.
         originalPosition = this.transform.localPosition;
+
+     //   origamiFileLogHandler = new OrigamiFileLogHandler();
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture

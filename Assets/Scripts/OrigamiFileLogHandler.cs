@@ -3,7 +3,7 @@ using System.Collections;
 using System.IO;
 using System;
 
-public class OrigamiFileLogHandler : MonoBehaviour, ILogHandler
+public class OrigamiFileLogHandler : ILogHandler
 {
     private FileStream m_FileStream;
     private StreamWriter m_StreamWriter;
@@ -11,7 +11,7 @@ public class OrigamiFileLogHandler : MonoBehaviour, ILogHandler
 
     public OrigamiFileLogHandler()
     {
-        string filePath = Application.persistentDataPath + "/MyLogs.txt";
+        string filePath = Application.persistentDataPath + "/MyLogs2.txt";
 
         m_FileStream = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
         m_StreamWriter = new StreamWriter(m_FileStream);
@@ -34,7 +34,20 @@ public class OrigamiFileLogHandler : MonoBehaviour, ILogHandler
 
     public void LogGaze()
     {
-        m_StreamWriter.WriteLine("Gaze has changed");
+        m_StreamWriter.WriteLine("Gaze has changed " + Time.time);
+        m_StreamWriter.Flush();
+    }
+
+    public void SelectionSuccessfull()
+    {
+        m_StreamWriter.WriteLine("Selection successfull " + Time.time);
+        m_StreamWriter.Flush();
+    }
+
+
+    public void SelectionNotSuccessfull()
+    {
+        m_StreamWriter.WriteLine("Selection NOT successfull " + Time.time);
         m_StreamWriter.Flush();
     }
 }
