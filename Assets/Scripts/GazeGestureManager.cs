@@ -8,12 +8,16 @@ public class GazeGestureManager : MonoBehaviour
     // Represents the hologram that is currently being gazed at.
     public GameObject FocusedObject { get; private set; }
 
+    OrigamiFileLogHandler fileLogHandler;
+
     GestureRecognizer recognizer;
 
     // Use this for initialization
     void Start()
     {
         Instance = this;
+
+        fileLogHandler = new OrigamiFileLogHandler();
 
         // Set up a GestureRecognizer to detect Select gestures.
         recognizer = new GestureRecognizer();
@@ -44,6 +48,8 @@ public class GazeGestureManager : MonoBehaviour
         {
             // If the raycast hit a hologram, use that as the focused object.
             FocusedObject = hitInfo.collider.gameObject;
+
+            fileLogHandler.LogGaze();
         }
         else
         {

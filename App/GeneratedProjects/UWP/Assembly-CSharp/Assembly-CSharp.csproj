@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{b6e7d814-c1ec-4bee-a2fa-3bb9c43164f2}</ProjectGuid>
+    <ProjectGuid>{8938dd24-6f32-4ddc-9f50-71493fd4e1c4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,16 +131,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\UnityEngine.Purchasing\UnityEngine.Purchasing.csproj">
-      <Project>{52a58ac8-7fe2-40a6-a874-47b456a12c6a}</Project>
+      <Project>{aa3bcad1-a6ad-4409-8dfd-3032bbb6cd76}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
-      <Project>{0e36398d-44fb-46a3-95cf-ddecdbf68501}</Project>
+      <Project>{b21f479d-00ab-4b17-8771-34b1e72713ff}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\Unity.Analytics.DataPrivacy.csproj">
-      <Project>{a417bfc6-5bf1-4fb6-b57a-633bedbde9c9}</Project>
+      <Project>{e9c26d69-ea59-4e7d-8fbe-c51b05861538}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>    <ProjectReference Include="C:\Users\FHBBook\Documents\Unity_Projects\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Origami\App\GeneratedProjects\UWP\Unity.XR.WindowsMR\Unity.XR.WindowsMR.csproj">
-      <Project>{8cd004dd-7941-407d-859c-0281b84c9c5c}</Project>
+      <Project>{8e036946-73ce-4ca5-a568-65a774a16099}</Project>
       <Name>Unity.XR.WindowsMR</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.SpriteShapeModule">
@@ -386,6 +386,9 @@
     <Compile Include="$(UnityProjectDir)Assets\Holograms\Support\Underworld\UnderworldSound.cs">
       <Link>Holograms\Support\Underworld\UnderworldSound.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ButtonManager.cs">
+      <Link>Scripts\ButtonManager.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\EventManager.cs">
       <Link>Scripts\EventManager.cs</Link>
     </Compile>
@@ -394,6 +397,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\LogFileManager.cs">
       <Link>Scripts\LogFileManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\OrigamiFileLogHandler.cs">
+      <Link>Scripts\OrigamiFileLogHandler.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\SpeechManager.cs">
       <Link>Scripts\SpeechManager.cs</Link>
