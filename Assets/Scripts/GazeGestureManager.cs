@@ -23,10 +23,17 @@ public class GazeGestureManager : MonoBehaviour
         recognizer = new GestureRecognizer();
         recognizer.Tapped += (args) =>
         {
+
+
             // Send an OnSelect message to the focused object and its ancestors.
             if (FocusedObject != null)
             {
+                fileLogHandler.SelectionSuccessfull();
                 FocusedObject.SendMessageUpwards("OnSelect", SendMessageOptions.DontRequireReceiver);
+
+            } else
+            {
+                fileLogHandler.SelectionNotSuccessfull();
             }
         };
         recognizer.StartCapturingGestures();

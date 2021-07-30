@@ -15,6 +15,8 @@ public class SpeechManager : MonoBehaviour
         {
             // Call the OnReset method on every descendant object.
             this.BroadcastMessage("OnReset");
+
+
         });
 
         keywords.Add("Drop Sphere", () =>

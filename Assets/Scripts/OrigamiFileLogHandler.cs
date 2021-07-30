@@ -8,6 +8,7 @@ public class OrigamiFileLogHandler : ILogHandler
     private FileStream m_FileStream;
     private StreamWriter m_StreamWriter;
     private ILogHandler m_DefaultLogHandler = Debug.unityLogger.logHandler;
+  //  private CurrentMillis cm =  CurrentMillis();
 
     public OrigamiFileLogHandler()
     {
@@ -34,7 +35,7 @@ public class OrigamiFileLogHandler : ILogHandler
 
     public void LogGaze()
     {
-        m_StreamWriter.WriteLine("Gaze has changed " + Time.time);
+        m_StreamWriter.WriteLine("Gaze has changed " + CurrentMillis.Millis);
         m_StreamWriter.Flush();
     }
 
@@ -50,4 +51,13 @@ public class OrigamiFileLogHandler : ILogHandler
         m_StreamWriter.WriteLine("Selection NOT successfull " + Time.time);
         m_StreamWriter.Flush();
     }
+}
+
+
+/// <summary>Class to get current timestamp with enough precision</summary>
+static class CurrentMillis
+{
+    private static readonly DateTime Jan1St1970 = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+    /// <summary>Get extra long current timestamp</summary>
+    public static long Millis { get { return (long)((DateTime.UtcNow - Jan1St1970).TotalMilliseconds); } }
 }
