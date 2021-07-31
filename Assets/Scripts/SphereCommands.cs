@@ -11,7 +11,7 @@ public class SphereCommands : MonoBehaviour
         // Grab the original local position of the sphere when the app starts.
         originalPosition = this.transform.localPosition;
 
-        origamiFileLogHandler = new OrigamiFileLogHandler("SphereCommandLogHandler.txt");
+        //origamiFileLogHandler = new OrigamiFileLogHandler("SphereCommandLogHandler.txt");
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture
@@ -37,7 +37,7 @@ public class SphereCommands : MonoBehaviour
         }
 
 
-        origamiFileLogHandler.SpeechResetWorld();
+        //origamiFileLogHandler.SpeechResetWorld();
         // Put the sphere back into its original local position.
         this.transform.localPosition = originalPosition;
     }
@@ -46,7 +46,7 @@ public class SphereCommands : MonoBehaviour
     void OnDrop()
     {
 
-        origamiFileLogHandler.SpeechDropSphere();
+        //origamiFileLogHandler.SpeechDropSphere();
         // Just do the same logic as a Select gesture.
         OnSelect();
     }
