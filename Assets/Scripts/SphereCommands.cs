@@ -11,7 +11,7 @@ public class SphereCommands : MonoBehaviour
         // Grab the original local position of the sphere when the app starts.
         originalPosition = this.transform.localPosition;
 
-        origamiFileLogHandler = new OrigamiFileLogHandler("SpeechLogHandler.txt");
+        origamiFileLogHandler = new OrigamiFileLogHandler("SphereCommandLogHandler.txt");
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture

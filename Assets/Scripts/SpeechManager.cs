@@ -7,16 +7,21 @@ public class SpeechManager : MonoBehaviour
 {
     KeywordRecognizer keywordRecognizer = null;
     Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
+    OrigamiFileLogHandler origamiFileLogHandler;
 
     // Use this for initialization
     void Start()
     {
+
+
+        origamiFileLogHandler = new OrigamiFileLogHandler("SpeechLogHandler.txt");
+
         keywords.Add("Reset world", () =>
         {
             // Call the OnReset method on every descendant object.
             this.BroadcastMessage("OnReset");
 
-
+            origamiFileLogHandler.SpeechResetWorld();
         });
 
         keywords.Add("Drop Sphere", () =>
@@ -26,6 +31,7 @@ public class SpeechManager : MonoBehaviour
             {
                 // Call the OnDrop method on just the focused object.
                 focusObject.SendMessage("OnDrop", SendMessageOptions.DontRequireReceiver);
+                origamiFileLogHandler.SpeechDropSphere();
             }
         });
 
@@ -42,6 +48,8 @@ public class SpeechManager : MonoBehaviour
         System.Action keywordAction;
         if (keywords.TryGetValue(args.text, out keywordAction))
         {
+
+            origamiFileLogHandler.SpeechAttempt();
             keywordAction.Invoke();
         }
     }
