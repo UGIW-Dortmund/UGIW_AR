@@ -8,11 +8,12 @@ public class OrigamiFileLogHandler : ILogHandler
     private FileStream m_FileStream;
     private StreamWriter m_StreamWriter;
     private ILogHandler m_DefaultLogHandler = Debug.unityLogger.logHandler;
-  //  private CurrentMillis cm =  CurrentMillis();
+    //  private CurrentMillis cm =  CurrentMillis();
+    private static DateTimeOffset _dto;
 
-    public OrigamiFileLogHandler()
+    public OrigamiFileLogHandler(string fileName)
     {
-        string filePath = Application.persistentDataPath + "/MyLogs2.txt";
+        string filePath = Application.persistentDataPath + "/" + fileName;
 
         m_FileStream = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
         m_StreamWriter = new StreamWriter(m_FileStream);
@@ -30,34 +31,53 @@ public class OrigamiFileLogHandler : ILogHandler
 
     public void LogException(Exception exception, UnityEngine.Object context)
     {
+
         m_DefaultLogHandler.LogException(exception, context);
     }
 
     public void LogGaze()
     {
-        m_StreamWriter.WriteLine("Gaze has changed " + CurrentMillis.Millis);
+        _dto = DateTimeOffset.Now;
+        m_StreamWriter.WriteLine("UGIW-AR | Gaze has changed | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt") + "\n");
+        m_StreamWriter.Flush();
+    }
+
+    public void ClearSpace()
+    {
+        _dto = DateTimeOffset.Now;
+        m_StreamWriter.WriteLine("UGIW-AR | Clear Space | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt") + "\n");
         m_StreamWriter.Flush();
     }
 
     public void SelectionSuccessfull()
     {
-        m_StreamWriter.WriteLine("Selection successfull " + Time.time);
+        _dto = DateTimeOffset.Now;
+        m_StreamWriter.WriteLine("UGIW-AR | Selection successfull " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt") + "\n");
         m_StreamWriter.Flush();
     }
 
 
     public void SelectionNotSuccessfull()
     {
-        m_StreamWriter.WriteLine("Selection NOT successfull " + Time.time);
+        _dto = DateTimeOffset.Now;
+        m_StreamWriter.WriteLine("UGIW-AR | Selection NOT successfull " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt") + "\n");
+        m_StreamWriter.Flush();
+    }
+
+    public void SpeechResetWorld()
+    {
+        _dto = DateTimeOffset.Now;
+        m_StreamWriter.WriteLine("UGIW-AR | Speech Reset World " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt") + "\n");
+        m_StreamWriter.Flush();
+    }
+
+
+    public void SpeechDropSphere()
+    {
+        _dto = DateTimeOffset.Now;
+        m_StreamWriter.WriteLine("UGIW-AR | Speech Drop Sphere " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt") + "\n");
         m_StreamWriter.Flush();
     }
 }
 
 
-/// <summary>Class to get current timestamp with enough precision</summary>
-static class CurrentMillis
-{
-    private static readonly DateTime Jan1St1970 = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-    /// <summary>Get extra long current timestamp</summary>
-    public static long Millis { get { return (long)((DateTime.UtcNow - Jan1St1970).TotalMilliseconds); } }
-}

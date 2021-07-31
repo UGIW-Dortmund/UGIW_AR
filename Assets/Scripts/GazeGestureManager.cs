@@ -17,7 +17,7 @@ public class GazeGestureManager : MonoBehaviour
     {
         Instance = this;
 
-        fileLogHandler = new OrigamiFileLogHandler();
+        fileLogHandler = new OrigamiFileLogHandler("UGIWGestureLogs.txt");
 
         // Set up a GestureRecognizer to detect Select gestures.
         recognizer = new GestureRecognizer();
@@ -62,6 +62,8 @@ public class GazeGestureManager : MonoBehaviour
         {
             // If the raycast did not hit a hologram, clear the focused object.
             FocusedObject = null;
+
+            fileLogHandler.ClearSpace();
         }
 
         // If the focused object changed this frame,
