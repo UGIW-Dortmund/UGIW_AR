@@ -13,7 +13,6 @@ public class SpeechManager : MonoBehaviour
     void Start()
     {
 
-
         origamiFileLogHandler = new OrigamiFileLogHandler("SpeechLogHandler.txt");
 
         keywords.Add("Reset world", () =>
@@ -41,6 +40,7 @@ public class SpeechManager : MonoBehaviour
         // Register a callback for the KeywordRecognizer and start recognizing!
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
         keywordRecognizer.Start();
+
     }
 
     private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)

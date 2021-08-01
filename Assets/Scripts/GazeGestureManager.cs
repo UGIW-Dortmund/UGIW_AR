@@ -31,8 +31,7 @@ public class GazeGestureManager : MonoBehaviour
                 fileLogHandler.SelectionSuccessfull();
                 FocusedObject.SendMessageUpwards("OnSelect", SendMessageOptions.DontRequireReceiver);
 
-            } else
-            {
+            } else {
                 fileLogHandler.SelectionNotSuccessfull();
             }
         };

@@ -52,7 +52,7 @@ public class OrigamiFileLogHandler : ILogHandler
     public void SelectionSuccessfull()
     {
         _dto = DateTimeOffset.Now;
-        m_StreamWriter.WriteLine("UGIW-AR | Selection successfull " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
+        m_StreamWriter.WriteLine("UGIW-AR | Selection successfull | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
         m_StreamWriter.Flush();
     }
 
@@ -60,14 +60,14 @@ public class OrigamiFileLogHandler : ILogHandler
     public void SelectionNotSuccessfull()
     {
         _dto = DateTimeOffset.Now;
-        m_StreamWriter.WriteLine("UGIW-AR | Selection NOT successfull " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
+        m_StreamWriter.WriteLine("UGIW-AR | Selection NOT successfull | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
         m_StreamWriter.Flush();
     }
 
     public void SpeechResetWorld()
     {
         _dto = DateTimeOffset.Now;
-        m_StreamWriter.WriteLine("UGIW-AR | Speech Reset World " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
+        m_StreamWriter.WriteLine("UGIW-AR | Speech Reset World | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
         m_StreamWriter.Flush();
     }
 
@@ -75,14 +75,14 @@ public class OrigamiFileLogHandler : ILogHandler
     public void SpeechDropSphere()
     {
         _dto = DateTimeOffset.Now;
-        m_StreamWriter.WriteLine("UGIW-AR | Speech Drop Sphere " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
+        m_StreamWriter.WriteLine("UGIW-AR | Speech Drop Sphere | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
         m_StreamWriter.Flush();
-    }
+    } 
 
     public void SpeechAttempt()
     {
         _dto = DateTimeOffset.Now;
-        m_StreamWriter.WriteLine("UGIW-AR | Speech Attempt " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
+        m_StreamWriter.WriteLine("UGIW-AR | Speech Attempt | " + _dto.LocalDateTime.ToString("dd/MM/yyyy hh:mm:ss.fff tt"));
         m_StreamWriter.Flush();
     }
 }
